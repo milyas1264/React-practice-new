@@ -22,6 +22,7 @@ import Component2 from "./components/Component2.jsx";
 import Students from "./components/Students.jsx";
 import CssStyleSheet from "./components/CssStyleSheet.jsx";
 import BsComponent from "./components/BsComponent.jsx";
+import UsComponent from "./components/UsComponent.jsx";
 
 function App() {
   const headerInfo = {
@@ -90,6 +91,7 @@ function App() {
       <Students />
       <CssStyleSheet check={true} />
       <BsComponent />
+      <UsComponent />
     </div>
   );
 }
