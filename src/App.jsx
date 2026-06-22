@@ -23,6 +23,7 @@ import Students from "./components/Students.jsx";
 import CssStyleSheet from "./components/CssStyleSheet.jsx";
 import BsComponent from "./components/BsComponent.jsx";
 import UsComponent from "./components/UsComponent.jsx";
+import UsWithObj from "./components/UsWithObj.jsx";
 
 function App() {
   const headerInfo = {
@@ -88,10 +89,11 @@ function App() {
         {/* {age1 >= 18 ? <h1>you can vote</h1> : <h1>you can not vote</h1>} */}
         {name == "Ilyas" ? <Compponent1 /> : <Component2 />}
       </div>
-      <Students />
-      <CssStyleSheet check={true} />
+      {/* <Students />
+      <CssStyleSheet check={true} /> */}
       <BsComponent />
       <UsComponent />
+      <UsWithObj />
     </div>
   );
 }
