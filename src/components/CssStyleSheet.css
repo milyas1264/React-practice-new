@@ -1,0 +1,14 @@
+.myfont1 {
+  color: brown;
+  font-size: 50px;
+  background-color: aqua;
+  text-shadow: 5px 5px 10px #ec2b2b;
+}
+.myfont2 {
+  border: 1px solid green;
+  background-color: darkcyan;
+}
+.myfont3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border: 3px dashed rgb(15, 19, 243);
+}

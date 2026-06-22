@@ -1,0 +1,16 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2021": true
+  },
+  "extends": ["eslint:recommended"],
+  "rules": {
+    "no-undef": "warn",          // undefined variable pe sirf warning
+    "no-unused-vars": "off",     // unused variable error band
+    "semi": "off",               // semicolon ki tension khatam
+    "quotes": "off",             // single/double quotes free choice
+    "no-console": "off",         // console.log allow
+    "eqeqeq": "warn"             // == vs === pe sirf warning
+  }
+}
