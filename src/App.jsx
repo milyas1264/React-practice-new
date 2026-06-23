@@ -24,6 +24,7 @@ import CssStyleSheet from "./components/CssStyleSheet.jsx";
 import BsComponent from "./components/BsComponent.jsx";
 import UsComponent from "./components/UsComponent.jsx";
 import UsWithObj from "./components/UsWithObj.jsx";
+import UsArray from "./components/UsArray.jsx";
 
 function App() {
   const headerInfo = {
@@ -94,6 +95,7 @@ function App() {
       <BsComponent />
       <UsComponent />
       <UsWithObj />
+      <UsArray />
     </div>
   );
 }
