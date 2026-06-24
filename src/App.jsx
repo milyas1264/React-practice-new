@@ -25,6 +25,8 @@ import BsComponent from "./components/BsComponent.jsx";
 import UsComponent from "./components/UsComponent.jsx";
 import UsWithObj from "./components/UsWithObj.jsx";
 import UsArray from "./components/UsArray.jsx";
+import ClassState from "./components/ClassState.jsx";
+import FunctionalState from "./components/FunctionalState.jsx";
 
 function App() {
   const headerInfo = {
@@ -92,10 +94,12 @@ function App() {
       </div>
       {/* <Students />
       <CssStyleSheet check={true} /> */}
-      <BsComponent />
+      {/* <BsComponent />
       <UsComponent />
-      <UsWithObj />
+      <UsWithObj /> */}
       <UsArray />
+      <ClassState />
+      <FunctionalState />
     </div>
   );
 }
