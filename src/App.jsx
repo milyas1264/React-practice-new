@@ -27,6 +27,7 @@ import UsWithObj from "./components/UsWithObj.jsx";
 import UsArray from "./components/UsArray.jsx";
 import ClassState from "./components/ClassState.jsx";
 import FunctionalState from "./components/FunctionalState.jsx";
+import FunctionEffect from "./components/FunctionEffect.jsx";
 
 function App() {
   const headerInfo = {
@@ -100,6 +101,7 @@ function App() {
       <UsArray />
       <ClassState />
       <FunctionalState />
+      <FunctionEffect />
     </div>
   );
 }
