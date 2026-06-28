@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 
-import React from "react";
+import React, { createContext } from "react";
 import Header from "./components/Header";
 import Counter from "./components/Counter";
 import Todo from "./components/Todo";
@@ -28,13 +28,19 @@ import UsArray from "./components/UsArray.jsx";
 import ClassState from "./components/ClassState.jsx";
 import FunctionalState from "./components/FunctionalState.jsx";
 import FunctionEffect from "./components/FunctionEffect.jsx";
+import CompA from "./components/CompA.jsx";
+
+let data = createContext();
+let data1 = createContext();
 
 function App() {
-  const headerInfo = {
-    name: "John Doe",
-    className: "10th Grade",
-    age: 16,
-  };
+  const name = "Ilyas";
+  const gender = "Male";
+  // const headerInfo = {
+  //   name: "John Doe",
+  //   className: "10th Grade",
+  //   age: 16,
+  // };
 
   // const name = "Abdul";
   // let data;
@@ -43,8 +49,8 @@ function App() {
   // } else {
   //   data = <Component2 />;
   // }
-  const name = "Ilyas";
-  let age1 = 19;
+  // const name = "Ilyas";
+  // let age1 = 19;
   return (
     <div>
       {" "}
@@ -89,21 +95,27 @@ function App() {
       <ParentComponent /> */}
       <div>
         {/* {data} */}
-        {name == "waqar" && <h1>Hello waqar</h1>}
+        {/* {name == "waqar" && <h1>Hello waqar</h1>} */}
         {/* {age1 >= 18 ? <h1>you can vote</h1> : <h1>you can not vote</h1>} */}
-        {name == "Ilyas" ? <Compponent1 /> : <Component2 />}
+        {/* {name == "Ilyas" ? <Compponent1 /> : <Component2 />} */}
       </div>
       {/* <Students />
       <CssStyleSheet check={true} /> */}
       {/* <BsComponent />
       <UsComponent />
       <UsWithObj /> */}
-      <UsArray />
-      <ClassState />
+      {/* <UsArray /> */}
+      {/* <ClassState />
       <FunctionalState />
-      <FunctionEffect />
+      <FunctionEffect /> */}
+      <data.Provider value={"Ilyas"}>
+        <data1.Provider value={"Male"}>
+          <CompA />
+        </data1.Provider>
+      </data.Provider>
     </div>
   );
 }
 
 export default App;
+export { data, data1 };
