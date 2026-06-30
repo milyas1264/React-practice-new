@@ -55,7 +55,7 @@ function App() {
   return (
     <div>
       <h1>Welcome to My React App Practice</h1>
-      <Header
+      {/* 1 <Header
         email="abc123@gmail.com"
         phone="123456789"
         name={headerInfo.name}
@@ -111,7 +111,7 @@ function App() {
         <data1.Provider value={"Male"}>
           <CompA />
         </data1.Provider>
-      </data.Provider>
+      </data.Provider> */}
       <ControlledForm />
     </div>
   );
