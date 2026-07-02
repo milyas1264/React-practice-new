@@ -24,7 +24,7 @@ export default class ControlledForm extends Component {
   render() {
     return (
       <div>
-        <h3>ControlledForm</h3>
+        <h3>Controlled Form Class </h3>
         <form onSubmit={this.handleFormSubmit}>
           <h1>{this.state.data}</h1>
           <label htmlFor="">Enter Name:</label>

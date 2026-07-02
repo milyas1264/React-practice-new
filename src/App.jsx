@@ -30,6 +30,7 @@ import FunctionalState from "./components/FunctionalState.jsx";
 import FunctionEffect from "./components/FunctionEffect.jsx";
 import CompA from "./components/CompA.jsx";
 import ControlledForm from "./components/ControlledForm.jsx";
+import ControlledFuntion from "./components/ControlledFuntion.jsx";
 
 let data = createContext();
 let data1 = createContext();
@@ -113,6 +114,7 @@ function App() {
         </data1.Provider>
       </data.Provider> */}
       <ControlledForm />
+      <ControlledFuntion />
     </div>
   );
 }

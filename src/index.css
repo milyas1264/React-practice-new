@@ -70,3 +70,17 @@ ul button {
   height: auto;
   border-radius: 10px;
 }
+
+form {
+  width: 500px;
+  margin: auto;
+  background-color: cornflowerblue;
+  border: #ccc;
+  border-radius: 10px solid grey;
+  margin-top: 20px;
+  padding: 20px;
+}
+form input {
+  margin-top: 10px;
+  padding: 10px;
+}
